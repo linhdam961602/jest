@@ -8,6 +8,7 @@
     "test:ci": "jest --ci"
   },
   "dependencies": {
+    "eslint-config-next": "^13.4.13",
     "next": "latest",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
