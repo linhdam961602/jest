@@ -9,5 +9,11 @@
         "**/?(*.)+(spec|test).[jt]s?(x)"
       ]
     }
+  ],
+  "ignorePatterns": [
+    "jest.config.js",
+    "lib",
+    "pages/login/index.tsx",
+    "__tests__"
   ]
 }

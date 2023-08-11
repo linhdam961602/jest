@@ -1,5 +1,5 @@
 import { render, screen } from "@testing-library/react";
-import TestWithMockData from "@/pages/testMockData";
+import TestWithMockData from "@/pages/test";
 import { mockData } from "../mocks/mockData";
 
 describe("tobe visible text", () => {
