@@ -24,7 +24,7 @@ describe("google", () => {
     await page.goto("https://google.vn/");
   });
 
-  it('should be titled "shopee"', async () => {
+  it('should be titled "Google"', async () => {
     await expect(page.title()).resolves.toMatch("Google");
   });
 
@@ -33,7 +33,6 @@ describe("google", () => {
       "/html/body/div[1]/div[3]/form/div[1]/div[1]/div[1]/div/div[2]/textarea";
     const searchBox = await page.$x(xpSearchBox);
 
-    // await page.mouse.down();
     await searchBox[0].type("Keyboard");
     await page.keyboard.press("Enter");
   }, 60000);
